@@ -1,0 +1,83 @@
+
+body
+{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-image: url(/image/image1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Share Tech Mono', monospace;
+	overflow: hidden;
+}
+
+iframe
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-color: black;
+	background-image: url(/image/image1.jpg);
+}
+
+p
+{
+	color: whitesmoke;
+	text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+h1
+{
+	text-align: center;
+	color:firebrick;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+h2
+{
+	text-align: center;
+}
+
+#page
+{
+	display: flex;
+	height: 92%;
+}
+
+#tetris
+{
+	flex: 0 50%;
+	height: 100%;
+}
+
+#cv
+{
+	flex: 0 50%;
+}
+
+ul
+{
+	margin: 0;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row>.col
+{
+	flex-basis: 0;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.navbar
+{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 1.5rem;
+	background: black;
+	color:whitesmoke;
+}

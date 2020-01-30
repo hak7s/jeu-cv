@@ -1,0 +1,20 @@
+canvas
+{
+	height: 380px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid whitesmoke;
+	font-family: 'Black Ops One', cursive;
+	background-image: url("/image/image1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.page
+{
+	font-size: 12px;
+	font-family: 'Black Ops One', cursive;
+	background-color: black;
+}

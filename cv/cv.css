@@ -1,0 +1,88 @@
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row>.col
+{
+	flex-basis: 0;
+	flex-grow: 1;
+	width: 100%;
+}
+
+body
+{
+	background-color: white;
+	height: 100%;
+	font-family: 'Black Ops One', cursive;
+}
+
+hr
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 5px solid rgba(0, 0, 0, .1);
+}
+
+h4
+{
+	margin: 0 !important;
+}
+
+h3
+{
+	color: cornflowerblue;
+}
+
+h2
+{
+	color: rgb(23, 124, 255);
+}
+
+.row>.col-1
+{
+	flex: 0 0 8.333333%;
+	width: 100%;
+}
+
+.row>.col-3
+{
+	flex: 0 0 25%;
+	width: 100%;
+}
+
+.row>.col-4
+{
+	flex: 0 0 33.333333%;
+	width: 100%;
+}
+
+.row>.col-7
+{
+	flex: 0 0 58.333333%;
+	width: 100%;
+}
+
+.justify-content-between
+{
+	justify-content: space-between !important;
+}
+
+.row>.col-5
+{
+	flex: 0 0 41.666667%;
+	width: 100%;
+}
+
+.align-self-center
+{
+	align-self: center !important;
+}
+
+.align-self-start
+{
+	align-self: start !important;
+}
